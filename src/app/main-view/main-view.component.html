@@ -1,10 +1,10 @@
 <mat-toolbar>
   <div class="menuNav">
     <section layout="row" layout-align="center center">
-        <button mat-flat-button class="groupX">{{this.appName}}</button>
-        <button mat-flat-button class="groupX">{{this.product}}</button>
-        <button mat-flat-button class="groupX">{{this.about}}</button>
-        <button mat-flat-button class="groupX">{{this.contact}}</button>
+        <button mat-flat-button class="groupX" (click)="navigateToAppName()">{{this.appName}}</button>
+        <button mat-flat-button class="groupX" (click)="navigateToProduct()">{{this.product}}</button>
+        <button mat-flat-button class="groupX" (click)="navigateToAbout()">{{this.about}}</button>
+        <button mat-flat-button class="groupX" (click)="navigateToContact()">{{this.contact}}</button>
       </section>
   </div>
 </mat-toolbar>
