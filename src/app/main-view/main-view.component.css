@@ -1,0 +1,37 @@
+
+
+mat-toolbar {
+  height: 3%;
+  background: #2a2a2f;
+}
+
+.menuNav {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.button1 {
+  background: #2a2a2f;
+}
+.groupX {
+  font-size: 14px;
+  color: white;
+  background-color: #2a2a2f;
+  font-weight: 100;
+  min-width:25%;
+  background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+.groupX:hover{
+  color:#b3bac6;
+}
+@media only screen and (max-width: 390px) {
+  [class*="groupX"] {
+    font-size: 10px;
+    min-width: 25%;
+  }
+}
+
+
