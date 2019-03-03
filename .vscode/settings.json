@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2a63d946-e0c6-4c47-b5f7-5f8c6c8aaa37/resourceGroups/SynApp/providers/Microsoft.Web/sites/SynApp",
+    "appService.deploySubpath": "dist"
+}
